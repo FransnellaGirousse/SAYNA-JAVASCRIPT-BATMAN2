@@ -31,7 +31,7 @@
     </div>
 
     <!-- Fin de cette scrollbar -->
-    
+
 
     <header id="header">
         <nav class="container">
@@ -47,37 +47,88 @@
     <section id="hero_game">
         <div class="container">
             <div class="content">
-                 
+
                 <h2 class="titre">LET’s play a <br> little game... </h2>
-                
+
             </div>
             <img class="fleche" src="./assets/Logos/flèche_down_header.png" alt="" />
         </div>
     </section>
 
-    <h1>GAME PLAY</h1>
-
-        <!--footer-->
-        <footer>
-            <div class="container">
-                <div class="text-footer">
-                    <img src="./assets/Logos/icon_WB.png" alt="" />
-                    Ce projet respecte l’univers cinématographique des films Batman
-                    récents. Version Nolan & Snyder & Reeves
+    <main class="variable">
+        <div class="warpped">
+                <div class="btn-game" id="entete">
+                    <div class="chevalier">
+                        <h2>connaissez vous bien le chevalier noir ?</h2>
+                        <img src="./assets/Illustrations_game/Batgame_2.png" alt="">
+                    </div>
+                    <button id="demarrer">DÉMARRER LE QUIZ</button>
                 </div>
-                <div class="social-footer">
-                    <a href="" class="social-item hoveryellow">
-                        <img width="2%" src="./assets/Logos/logo_sayna_white.png" alt="" />
-                        <img src="./assets/Logos/icon_x.png" alt="" />
-                        <img width="2%" src="./assets/Logos/icon_DC.png" alt="" />
-                    </a>
-                    <a href="" class="social-item"><img class="hoveryellow" src="./assets/Logos/icon_facebook.png" alt="" /></a>
-                    <a href="" class="social-item"><img class="hoveryellow" src="./assets/Logos/icon_ig.png" alt="" /></a>
-                    <a href="" class="social-item"><img class="hoveryellow" src="./assets/Logos/icon_tw.png" alt="" /></a>
+            
+            
+        
+            <!-- les questions du quizz -->
+            <div class="questions" id="questions">
+                <h2 class="nombreDeQuestions">
+                    <span id="current-question">1</span>/ <span id="total">15</span>
+                </h2>
+                <div class="card-quizz">
+                    <div class="card-image">
+                        <img src="./assets/Illustrations_game/Batgame_3.png" alt="">
+                    </div>
+                </div>
+                
+                <div class="card-body-quizz">
+                    <div class="question-quizz">
+                        Quel est l’autre nom de l’Homme-Mystère ?
+                    </div>
+                    <div class="choisirReponse">
+                        <div class="qcm">
+                            <input type="checkbox" name="quizz0">
+                            <label for="">Le Sphinx</label>
+                        </div>
+                        <div class="qcm">
+                            <input type="checkbox" name="quizz0">
+                            <label for="">Saphir</label>
+                        </div>
+                        <div class="qcm">
+                            <input type="checkbox" name="quizz0">
+                            <label for="">Le Joker</label>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
-        <script src="./assets/js/game.js"></script>
+
+            <!-- page suivante -->
+            <div class="btn-game">
+                <button id="question-suivante">QUESTION SUIVANTE</button>
+            </div>
+        </div>
+    </main>
+
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <div class="text-footer">
+                <img src="./assets/Logos/icon_WB.png" alt="" />
+                Ce projet respecte l’univers cinématographique des films Batman
+                récents. Version Nolan & Snyder & Reeves
+            </div>
+            <div class="social-footer">
+                <a href="" class="social-item hoveryellow">
+                    <img width="2%" src="./assets/Logos/logo_sayna_white.png" alt="" />
+                    <img src="./assets/Logos/icon_x.png" alt="" />
+                    <img width="2%" src="./assets/Logos/icon_DC.png" alt="" />
+                </a>
+                <a href="" class="social-item"><img class="hoveryellow" src="./assets/Logos/icon_facebook.png"
+                        alt="" /></a>
+                <a href="" class="social-item"><img class="hoveryellow" src="./assets/Logos/icon_ig.png" alt="" /></a>
+                <a href="" class="social-item"><img class="hoveryellow" src="./assets/Logos/icon_tw.png" alt="" /></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/game.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
-        
+
 </html>

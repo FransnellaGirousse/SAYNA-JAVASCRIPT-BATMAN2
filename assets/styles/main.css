@@ -367,6 +367,43 @@ footer .social-footer .social-item {
   margin-top: 20rem;
 }
 
+.warpped {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.warpped h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.warpped .questions .nombreDeQuestions {
+  margin: 20px 0;
+}
+.warpped .questions .card-quizz {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+}
+.warpped .questions .card-quizz .card-image img {
+  width: 80%;
+}
+.warpped .questions .card-quizz .question-quizz {
+  margin: 20px 0;
+}
+.warpped .questions .card-quizz .qcm {
+  background-color: darkgray;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+.warpped .btn-game {
+  padding: 40px 0;
+}
+.warpped .btn-game button {
+  background: linear-gradient 143deg, rgba(121, 130, 128, 0.5), rgba(228, 122, 1, 0.6) 80%;
+}
+
 .scroll {
   display: flex;
   flex-direction: column;
