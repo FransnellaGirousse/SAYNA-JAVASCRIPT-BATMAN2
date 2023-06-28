@@ -43,17 +43,22 @@
         .nombreDeQuestions{
             margin: 20px 0;
         }
+        .content-quizz{
+            display: flex;
+        }
         .card-quizz{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: center;
             text-align: left;
             .card-image img {
                 width: 80%;
             }
+            
             .question-quizz {
-                margin: 20px 0;
+                margin-top: 50px;
             }
+
             .qcm {
                 background-color: darkgray;
                 margin: 10px;
@@ -66,9 +71,18 @@
         padding: 40px 0;
         button {
             background: linear-gradient (143deg, 
-            rgb(121, 130,128, 0.5),
+            rgb(121, 120,128, 0.5),
             rgba(228, 122, 1, 0.6) 80%
             );
+            &:hover {
+                background: linear-gradient (143deg,
+                            rgb(121, 120, 128, 0.5),
+                            rgba(167, 89, 0) 80%);
+            } 
+            padding: 15px 30px;
+            color: white;
+            text-transform: uppercase;
+            cursor: pointer;
         }
     }
 }

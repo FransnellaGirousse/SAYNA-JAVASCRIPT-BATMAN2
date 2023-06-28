@@ -379,9 +379,12 @@ footer .social-footer .social-item {
 .warpped .questions .nombreDeQuestions {
   margin: 20px 0;
 }
+.warpped .questions .content-quizz {
+  display: flex;
+}
 .warpped .questions .card-quizz {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: left;
 }
@@ -389,7 +392,7 @@ footer .social-footer .social-item {
   width: 80%;
 }
 .warpped .questions .card-quizz .question-quizz {
-  margin: 20px 0;
+  margin-top: 50px;
 }
 .warpped .questions .card-quizz .qcm {
   background-color: darkgray;
@@ -401,7 +404,14 @@ footer .social-footer .social-item {
   padding: 40px 0;
 }
 .warpped .btn-game button {
-  background: linear-gradient 143deg, rgba(121, 130, 128, 0.5), rgba(228, 122, 1, 0.6) 80%;
+  background: linear-gradient 143deg, rgba(121, 120, 128, 0.5), rgba(228, 122, 1, 0.6) 80%;
+  padding: 15px 30px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.warpped .btn-game button:hover {
+  background: linear-gradient 143deg, rgba(121, 120, 128, 0.5), rgb(167, 89, 0) 80%;
 }
 
 .scroll {
